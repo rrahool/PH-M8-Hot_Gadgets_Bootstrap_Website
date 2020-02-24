@@ -1,0 +1,145 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap'); */
+body{
+    font-family: 'Trade Winds', ;
+}
+.slight-gap{
+    margin-bottom: 100px;
+}
+h3{
+    margin-bottom: 40px;;
+}
+
+.navbar{
+    padding-top: 2%;
+}
+.nav-item{
+    margin-left: 50px;
+}
+.bg-image{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+}
+.buy-now-button{
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    margin-bottom: 40px;
+    cursor: pointer;
+
+}
+.carousel-item{
+    padding: 20px 40px;
+}
+.carousel-indicators li{
+    background-color: darkgray;
+    border:none;
+    border-radius: 5px;
+    height:8px;
+    width:10px;
+}
+.carousel-indicators li.active {
+    width: 30px;
+    height: 8px;
+    border:none;
+    border-radius: 5px;
+    background: linear-gradient(45deg, #F1D21D, #FF9C35);
+
+}
+.card{
+    border: none;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px lightgray;
+    text-align: center;
+}
+.see-all{
+    color: orange;
+}
+.smartphone img{
+    width: 280px;
+    height: 280px;
+    margin-top: 50px;
+}
+.laptop{
+    height: ;
+}
+.laptop img{
+    width: 300px;
+    height: 250px;
+    margin-top: 50px;
+}
+h5{
+    padding-top: 30px;
+    font-weight: 600;
+}
+.price{
+    padding-top: 40px;
+    margin-bottom: 0;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.cat-heading{
+    position: relative;
+    margin: 0 auto;
+    display: inline-block;
+    margin-bottom: 70px;
+    padding-bottom: 18px;
+}
+.cat-heading:after{
+    position: absolute;
+    content: "";
+    height: 8px;
+    width: 110px;
+    background: linear-gradient(45deg, #F1D21D, #FF9C35);
+    border-radius: 10px;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.cat-image{
+    width: 230px;
+    padding: 70px 70px 0 70px;
+    box-shadow: 5px 5px 10px lightgray;
+    margin-bottom: 35px;
+}
+
+#border-same{
+    border-radius: 20px 5px 30px 5px;
+}
+
+#border-diff{
+    border-radius: 5px 20px 5px 30px;
+}
+
+.accessories {
+    box-shadow: 5px 5px 10px lightgray;
+	padding: 70px 30px;
+	text-align: center;
+	margin-top: 30px;
+	width: 90%;
+    height: 40%;
+}
+
+.accessories img {
+	height: 80px;
+}
+
+.accessories a {
+    display: block;
+    text-decoration: none;
+	font-size: 20px;
+	font-weight: 600;
+	color: #1F1F1F;
+	text-transform: capitalize;
+	margin-top: 20px;
+	transition: .5s;
+}
+.img-pale-order{
+    margin-top: 100px;
+    margin-left: 100px;
+}
